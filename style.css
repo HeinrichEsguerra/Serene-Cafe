@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(rgba(19, 18, 18, 0.5), rgba(19, 18, 18, 0.5), rgba(0, 0, 0, 0.5)), url("C:\Users\admin\OneDrive\Desktop\business\cafe.jpg");
+}
+
+header .logo {
+    font-size: 30px;
+}
+
+header .logo a {
+    font-size: 30px;
+    color: crimson;
+    padding: 15px 30px;
+}
+
+header .logo a span {
+    color: rgb(228, 62, 62);
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: rgb(104, 231, 172);
+    padding: 10px 10px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid rgb(184, 106, 106);
+}
+
+/*content*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #af8383, #c46262), url("C:\Users\admin\OneDrive\Desktop\business\style.css");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content h2 {
+    font-size: 32px;
+    padding: 5px;
+    color: beige;
+}
+
+.content p {
+    font-size: 22px;
+    color: beige;
+}
+
+/* menu */
+
+.menu {
+    background-color: #333333;
+    width: 100%;
+}
+
+.menu .menu-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header h3 {
+    color: rgb(0, 245, 163);
+    padding: 10px 30px;
+}
+
+.menu-header h4 {
+    color: rgb(0, 255, 179);
+    padding: 10px 30px;
+}
+
+.menu .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background-color: #404040;
+
+}
+
+.menu .menu-content .Hot-Coffee,
+.Frappe,
+.Cold-Coffee,
+.Milktea {
+    width: 200px;
+}
+
+.menu .menu-content .Hot-Coffee .Hot-Coffee-image img {
+    border-radius: 20%;
+}
+
+.menu .menu-content .Frappe .Frappe-image img {
+    border-radius: 20%;
+}
+
+
+.menu .menu-content .Cold-Coffee .Cold-Coffee-image img {
+    border-radius: 20%;
+}
+
+.menu .menu-content .Milktea .Milktea-image img {
+    border-radius: 20%;
+}
+
+.menu .menu-content .Hot-coffee-body,
+.Frappe-body,
+.Cold-Coffee-body,
+.Milktea-body {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu .menu-content .Hot-coffee-body h2,
+.Frappe-body h2,
+.Cold-Coffe-body h2,
+.Milktea-body h2 {
+    color: yellow;
+}
+
+.menu .menu-content .Hot-coffee-body label,
+.Frappe-body label,
+.Cold-Coffe-body label,
+.Milktea-body label {
+    margin-top: 10px;
+    color: rgb(226, 230, 230);
+    font: italic;
+}
+
+/* Study Cafe */
+
+.studycafe {
+    background-color: #333333;
+    width: 100%;
+}
+
+.studycafe h3{
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+.studycafe .studycafe-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.studycafe-header h3 {
+    color: rgb(0, 245, 233);
+    padding: 10px 30px;
+}
+
+.studycafe-header h4 {
+    color: rgb(0, 255, 255);
+    padding: 10px 20px;
+}
+
+.studycafe-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #404040;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.studycafe-box .card {
+    width: 280px;
+    margin: 20px;
+}
+
+.studycafe-box .card-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.studycafe-box .card-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+}
+
+.studycafe-box .card-body h3 {
+    padding: 10px 0;
+}
+
+.studycafe-box .card-body i {
+    color: orange;
+    font-size: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+ nav ul {
+    display: flex;
+}
+
+ nav ul li a {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: rgb(104, 231, 172);
+    padding: 10px 10px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(184, 106, 106);
+}
+
+/* About */
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+    position: relative;
+}
+    
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #e94040;
+}
+
+.heading p{
+    font-size: 18px;
+    color: #d3c5c5;
+    margin-bottom: 35px;
+    font: bold;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.about-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image{
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex:1;
+}
+.about-content h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:#cfcaca;
+    font: italic;
+}
+
+.about-content h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:#cfcaca;
+    font: italic;
+}
+
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #cfcaca;
+}
+
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fa0707;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+.about-content .read-more:hover{
+    background-color: #00fc08;
+}
+
+@media screen and (max-width: 768px){
+    .heading{
+        padding: 0px 20px;
+    }
+    .heading h1{
+        font-size: 36px;
+    }
+    .heading p{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .container{
+        padding: 0px;
+    }
+    .about{
+        padding:20px;
+        flex-direction: column;
+    }
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+    .about-content .read-more{
+        font-size: 16px;
+    }
+}
+
+/* Contact */
+
+.footer{
+    background-color: #3b3b3b;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover Effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+color: white;
+transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none disc;
+}
+
+.footerNav ul li a{
+   color: white;
+   margin: 20px;
+   text-decoration: none;
+   font-size: 1.3em;
+   opacity: 0.7;
+   transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: whitesmoke;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media  (max-width:  700px){
+.footerNav ul{
+    flex-direction: column;
+}
+.footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+}
+    
